@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: rfg3iihl1-nodejs-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/rfg3iihl1-nodejs

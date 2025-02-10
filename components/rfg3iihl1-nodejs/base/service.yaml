@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app.kubernetes.io/instance: rfg3iihl1-nodejs
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: rfg3iihl1-nodejs 
+  name: rfg3iihl1-nodejs
+spec:
+  ports:
+  - port: 3001 
+    targetPort: 3001 
+  selector:
+    app.kubernetes.io/instance: rfg3iihl1-nodejs 
